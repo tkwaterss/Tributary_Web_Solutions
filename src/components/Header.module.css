@@ -10,8 +10,6 @@ header {
 .headerLogo {
   height: 60px;
 }
-nav {
-}
 .navLinks {
   list-style: none;
   display: flex;

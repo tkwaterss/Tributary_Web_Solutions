@@ -2,7 +2,10 @@ import React from 'react'
 
 const project = () => {
   return (
-    <div>project</div>
+    <div>
+      <img alt="Project Photo"></img>
+      <div>Project Description</div>
+    </div>
   )
 }
 
