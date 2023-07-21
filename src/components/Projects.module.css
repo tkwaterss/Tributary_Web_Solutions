@@ -1,3 +1,14 @@
 .projectsSection {
   background: #4e93aa;
 }
+.projectContent {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.tempIMGPlaceholder {
+  height: 160px;
+  width: 300px;
+  background-color: rgba(0, 0, 255, 0.404);
+}

@@ -30,4 +30,7 @@ main {
   background: #444943;
   -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
 }
+.divider {
+  border: 2px solid hsla(195, 50%, 38%, 0.589);
+}
 

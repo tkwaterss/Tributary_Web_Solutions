@@ -8,14 +8,11 @@ const Header = () => {
     <LeftSection className={classes.headerSection}>
       <div className={classes.logoContainer}>
         <img className={classes.headerLogo} src={Logo} alt="Waters Edge Logo"/>
+        <h1>Waters Edge Designs</h1>
+        <div className="divider"></div>
+        <p>Some kind of quote or one liner about the company</p>
       </div>
-      <nav>
-        <ul className={classes.navLinks}>
-          <li>About</li>
-          <li>Projects</li>
-          <li>Contact</li>
-        </ul>
-      </nav>
+      
     </LeftSection>
   )
 }
