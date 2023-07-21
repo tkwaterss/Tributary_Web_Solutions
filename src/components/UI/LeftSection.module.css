@@ -1,0 +1,44 @@
+.leftSection {
+  background: #41ade5;
+  width: 100%;
+  position: relative;
+  z-index: 1;
+  
+  
+  &:before,
+  &:after {
+    background: inherit;
+    content: '';
+    display: block;
+    height: 50%;
+    left: 0;
+    position: absolute;
+    right: 0;
+    z-index: -1;
+    -webkit-backface-visibility: hidden;
+  }
+
+  &:before {
+    top: 0;
+    transform: skewY(2deg);
+    transform-origin: 100% 0;
+  }
+  
+  &:after {
+    bottom: 0;
+    transform: skewY(-2deg);
+    transform-origin: 100%;
+  }
+}
+
+.leftSection {
+  color: #fff;
+  font-family: 'Fira Sans', sans-serif;
+  margin: 0;
+  padding: 10px 0px;
+  text-align: center;
+}
+.leftContent {
+  border: solid;
+  min-height: 200px;
+}

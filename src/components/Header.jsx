@@ -1,10 +1,11 @@
 import React from 'react'
 import Logo from '../images/Logo.png'
 import classes from "./Header.module.css";
+import LeftSection from './UI/LeftSection';
 
 const Header = () => {
   return (
-    <header>
+    <LeftSection>
       <div className={classes.logoContainer}>
         <img className={classes.headerLogo} src={Logo} alt="Waters Edge Logo"/>
       </div>
@@ -15,7 +16,7 @@ const Header = () => {
           <li>Contact</li>
         </ul>
       </nav>
-    </header>
+    </LeftSection>
   )
 }
 
