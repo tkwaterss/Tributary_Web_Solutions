@@ -1,0 +1,8 @@
+.footerSection {
+  background: #317a92;
+  &:after {
+    bottom: 0;
+    transform: skewY(0deg);
+    transform-origin: 100%;
+  }
+}

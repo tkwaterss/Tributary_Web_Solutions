@@ -5,7 +5,7 @@ import LeftSection from './UI/LeftSection';
 
 const Header = () => {
   return (
-    <LeftSection>
+    <LeftSection className={classes.headerSection}>
       <div className={classes.logoContainer}>
         <img className={classes.headerLogo} src={Logo} alt="Waters Edge Logo"/>
       </div>

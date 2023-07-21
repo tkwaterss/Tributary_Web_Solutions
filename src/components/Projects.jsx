@@ -1,12 +1,12 @@
 import React from 'react'
 import classes from './Projects.module.css';
-import LeftSection from './UI/LeftSection';
+import RightSection from './UI/RightSection';
 
 const projects = () => {
   return (
-    <LeftSection>
+    <RightSection className={classes.projectsSection}>
       Projects Here
-    </LeftSection>
+    </RightSection>
   )
 }
 

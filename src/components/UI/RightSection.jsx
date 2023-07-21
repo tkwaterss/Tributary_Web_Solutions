@@ -3,8 +3,8 @@ import classes from "./RightSection.module.css";
 
 const RightSection = (props) => {
   return (
-    <section className={classes.rightSection}>
-      <div className={classes.rightContent}>{props.children}</div>
+    <section className={`${classes.rightSection} ${props.className}`}>
+      <div className={`${classes.rightContent}`}>{props.children}</div>
     </section>
   );
 };
