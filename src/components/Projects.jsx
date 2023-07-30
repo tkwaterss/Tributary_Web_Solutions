@@ -8,7 +8,7 @@ const projects = () => {
       <div className={classes.projectContent}>
         <div>
           <h2>Moon Gear</h2>
-          <p>E-commerce and Business Management Application</p>
+          <p>Coming Soon...</p>
         </div>
         <div className={classes.tempIMGPlaceholder}>Screenshot of Moon Gear Site</div>
       </div>

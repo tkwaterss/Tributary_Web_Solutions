@@ -1,3 +1,9 @@
 .aboutSection {
   background: #8ac3d6;
 }
+.aboutContent {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  text-align: right;
+}

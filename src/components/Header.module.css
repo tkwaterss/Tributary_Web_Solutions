@@ -1,6 +1,20 @@
 .headerLogo {
-  height: 100px;
+  height: 80px;
 }
 .headerSection {
   background: #E2E2E2;
+}
+.headerContent {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  margin-bottom: 40px;
+  margin-top: 80px;
+}
+.divider {
+   border: 2px solid hsla(195, 50%, 38%, 0.4);
+   width: 100%;
 }
