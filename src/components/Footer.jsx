@@ -20,35 +20,33 @@ const footer = () => {
       </ul>
        */}
 
-        <div className={classes.row}>
-          <span>
-            <input
-              className={classes.balloon}
-              id="state"
-              type="text"
-              placeholder="Liquid, solid, gaseous..."
-            />
-            <label for="state">State</label>
-          </span>
-          <span>
-            <input
-              className={classes.balloon}
-              id="planet"
-              type="text"
-              placeholder="Probably Earth"
-            />
-            <label for="planet">Planet</label>
-          </span>
-          <span>
-            <input
-              className={classes.balloon}
-              id="galaxy"
-              type="text"
-              placeholder="Milky Way?"
-            />
-            <label for="galaxy">Galaxy</label>
-          </span>
-        </div>
+        <span>
+          <input
+            className={classes.balloon}
+            id="state"
+            type="text"
+            placeholder="Liquid, solid, gaseous..."
+          />
+          <label for="state">State</label>
+        </span>
+        <span>
+          <input
+            className={classes.balloon}
+            id="planet"
+            type="text"
+            placeholder="Probably Earth"
+          />
+          <label for="planet">Planet</label>
+        </span>
+        <span>
+          <input
+            className={classes.balloon}
+            id="galaxy"
+            type="text"
+            placeholder="Milky Way?"
+          />
+          <label for="galaxy">Galaxy</label>
+        </span>
       </div>
     </LeftSection>
   );

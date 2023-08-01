@@ -8,26 +8,14 @@
 }
 .footerContent {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 40px;
 }
-
 span {
   position: relative;
   display: inline-block;
-  margin: 30px 10px;
-}
-.row {
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 60px 30px;
-  background: #032429;
-  text-align: center;
-  span {
-    position: relative;
-    display: inline-block;
-    margin: 30px 10px;
-  }
 }
 .balloon {
   display: inline-block;
