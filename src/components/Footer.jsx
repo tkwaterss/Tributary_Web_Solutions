@@ -28,7 +28,7 @@ const Footer = () => {
   return (
     <LeftSection className={classes.footerSection}>
       <div className={classes.footerContent}>
-        <h3>Send me a message!</h3>
+        <h3>Send a message!</h3>
         <form className={classes.contactForm}>
           <span>
             <input

@@ -8,7 +8,9 @@
   align-items: center;
 }
 .tempIMGPlaceholder {
-  height: 160px;
   width: 300px;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+  border: solid black 5px;
   background-color: rgba(0, 0, 255, 0.404);
 }
