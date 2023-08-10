@@ -2,6 +2,7 @@ import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import classes from "./Footer.module.css";
 import LeftSection from "./UI/LeftSection";
+import Button from "./UI/Button";
 
 const Footer = () => {
   const serviceId = process.env.REACT_APP_SERVICE_ID;
@@ -28,7 +29,7 @@ const Footer = () => {
   return (
     <LeftSection className={classes.footerSection}>
       <div className={classes.footerContent}>
-        <h3>Send a message!</h3>
+        <h3>Get in Touch!</h3>
         <form className={classes.contactForm}>
           <span>
             <input
@@ -57,7 +58,7 @@ const Footer = () => {
             />
             <label for="galaxy">Message</label>
           </span>
-          <button>SEND</button>
+          <Button>SEND</Button>
         </form>
 
         <h4>Social Links</h4>

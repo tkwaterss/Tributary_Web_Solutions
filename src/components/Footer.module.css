@@ -43,7 +43,7 @@ span label:hover {
   border: solid black 1.5px;
   border-radius: 3px;
   outline: 0;
-  text-indent: 60px; 
+  text-indent: 90px; 
    /* Arbitrary. */
   transition: all .3s ease-in-out;
   
@@ -92,7 +92,7 @@ textarea {
 .balloon:active {
   color: black;
   text-indent: 0;
-  background: #317a92;
+  background: #69acc2;
   
   &::-webkit-input-placeholder {
     color: #222;

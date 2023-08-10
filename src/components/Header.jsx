@@ -10,7 +10,7 @@ const Header = () => {
         <img className={classes.headerLogo} src={Logo} alt="Waters Edge Logo"/>
         <h1>Waters Edge Designs</h1>
         <div className={classes.divider}></div>
-        <p>Some kind of quote or one liner about the company</p>
+        <p>Unique, user-centric websites, uniting innovation with collaboration to empower clients' digital visions</p>
       </div>
       
     </LeftSection>
