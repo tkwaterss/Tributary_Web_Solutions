@@ -3,6 +3,7 @@ import emailjs from "@emailjs/browser";
 import classes from "./Footer.module.css";
 import LeftSection from "./UI/LeftSection";
 import Button from "./UI/Button";
+import { BsLinkedin, BsGithub, BsGlobe2 } from "react-icons/bs";
 
 const Footer = () => {
   const serviceId = process.env.REACT_APP_SERVICE_ID;
@@ -24,49 +25,54 @@ const Footer = () => {
     );
   };
 
-
-  
   return (
     <LeftSection className={classes.footerSection}>
       <div className={classes.footerContent}>
         <h3>Get in Touch!</h3>
-        <form className={classes.contactForm}>
+        <form ref={form} onSubmit={sendEmail} className={classes.contactForm}>
           <span>
             <input
               className={classes.balloon}
-              id="state"
+              id="name"
+              name="name"
               type="text"
               placeholder="First Last"
             />
-            <label for="state">Name</label>
+            <label htmlFor="name">Name</label>
           </span>
           <span>
             <input
               className={classes.balloon}
-              id="planet"
+              id="email"
+              name="email"
               type="text"
               placeholder="youremail@here.com"
             />
-            <label for="planet">Email</label>
+            <label htmlFor="email">Email</label>
           </span>
           <span>
-            <textArea
+            <textarea
               className={classes.balloon}
-              id="galaxy"
+              id="message"
+              name="message"
               type="text"
-              placeholder="Milky Way?"
+              placeholder="What's on your mind?"
             />
-            <label for="galaxy">Message</label>
+            <label htmlFor="message">Message</label>
           </span>
           <Button>SEND</Button>
         </form>
 
-        <h4>Social Links</h4>
-        <ul>
-          <li>Company Linked In</li>
-          <li>Personal Linked In</li>
-          <li>Personal Portfolio</li>
-          <li>Github Account</li>
+        <ul className={classes.socialContainer}>
+          <li>
+            <BsLinkedin className={classes.icon}/>
+          </li>
+          <li>
+            <BsGlobe2 className={`${classes.roundIcon} ${classes.icon}`}/>
+          </li>
+          <li>
+            <BsGithub className={`${classes.roundIcon} ${classes.icon}`}/>
+          </li>
         </ul>
       </div>
     </LeftSection>

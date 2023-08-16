@@ -1,0 +1,8 @@
+.stackSection {
+  background: #69acc2;
+}
+.projectContent {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}

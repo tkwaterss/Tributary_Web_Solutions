@@ -1,9 +1,9 @@
 import React from "react";
-import classes from "./Projects.module.css";
+import classes from "./MoonGear.module.css";
 import RightSection from "./UI/RightSection";
 import Moon from "../images/moon-photo.png";
 
-const projects = () => {
+const MoonGear = () => {
   return (
     <RightSection className={classes.projectsSection}>
       <div className={classes.projectContent}>
@@ -19,4 +19,4 @@ const projects = () => {
   );
 };
 
-export default projects;
+export default MoonGear;

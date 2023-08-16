@@ -3,7 +3,7 @@
   border-radius: 4px;
   border: none;
   padding: 8px 20px;
-  background-color: #69acc2;
+  background-color: #4e98b1;
   box-shadow: 0 2px 5px .1px rgba(0, 0, 0, 0.2);
   letter-spacing: 1px;
   font-size: 16px;
@@ -15,6 +15,6 @@
 .btn:hover {
   box-shadow: 3px 3px 5px .1px rgba(0, 0, 0, 0.4);
   cursor: pointer;
-  background-color: #76b2c6;
+  background-color: #539bb3;
   transition: all 0.2s ease-in-out;
 }

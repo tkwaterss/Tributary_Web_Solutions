@@ -3,7 +3,6 @@
   position: relative;
   z-index: 1;
   
-  
   &:before,
   &:after {
     background: inherit;
@@ -32,7 +31,6 @@
 }
 
 .leftSection {
-  font-family: 'Fira Sans', sans-serif;
   margin: 0;
   padding: 10px 0px;
   text-align: center;

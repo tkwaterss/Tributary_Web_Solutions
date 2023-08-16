@@ -1,8 +1,8 @@
 import './App.css';
 import Header from './components/Header';
 import About from './components/About';
-import Projects from './components/Projects';
-import Stack from './components/Stack';
+import MoonGear from './components/MoonGear';
+import Scoville from './components/Scoville';
 import Footer from './components/Footer';
 
 function App() {
@@ -11,8 +11,8 @@ function App() {
       <Header />
       <main>
         <About />
-        <Stack />
-        <Projects />
+        <Scoville />
+        <MoonGear />
       </main>
       <Footer />
     </div>
