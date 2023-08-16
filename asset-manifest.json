@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/watersedgedesigns/static/css/main.7154788d.css",
-    "main.js": "/watersedgedesigns/static/js/main.2b7bbab7.js",
+    "main.css": "/watersedgedesigns/static/css/main.83eb7c98.css",
+    "main.js": "/watersedgedesigns/static/js/main.263df998.js",
     "static/media/moon-photo.png": "/watersedgedesigns/static/media/moon-photo.0a520ea41293e6938f4f.png",
     "static/media/WatersEdgeLogo4.png": "/watersedgedesigns/static/media/WatersEdgeLogo4.9d3fed5ef2a962c4efdb.png",
     "index.html": "/watersedgedesigns/index.html",
-    "main.7154788d.css.map": "/watersedgedesigns/static/css/main.7154788d.css.map",
-    "main.2b7bbab7.js.map": "/watersedgedesigns/static/js/main.2b7bbab7.js.map"
+    "main.83eb7c98.css.map": "/watersedgedesigns/static/css/main.83eb7c98.css.map",
+    "main.263df998.js.map": "/watersedgedesigns/static/js/main.263df998.js.map"
   },
   "entrypoints": [
-    "static/css/main.7154788d.css",
-    "static/js/main.2b7bbab7.js"
+    "static/css/main.83eb7c98.css",
+    "static/js/main.263df998.js"
   ]
 }
