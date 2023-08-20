@@ -65,13 +65,31 @@ const Footer = () => {
 
         <ul className={classes.socialContainer}>
           <li>
-            <BsLinkedin className={classes.icon}/>
+            <a
+              href="http://linkedin.com/company/watersedgedesigns"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <BsLinkedin className={classes.icon} />
+            </a>
           </li>
           <li>
-            <BsGlobe2 className={`${classes.roundIcon} ${classes.icon}`}/>
+            <a
+              href="https://tkwaterss.github.io/"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <BsGlobe2 className={`${classes.roundIcon} ${classes.icon}`} />
+            </a>
           </li>
           <li>
-            <BsGithub className={`${classes.roundIcon} ${classes.icon}`}/>
+            <a
+              href="https://github.com/tkwaterss"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <BsGithub className={`${classes.roundIcon} ${classes.icon}`} />
+            </a>
           </li>
         </ul>
       </div>
